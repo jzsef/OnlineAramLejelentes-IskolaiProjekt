@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+    android:background="@color/gray"
+        android:orientation="vertical">
+        tools:context=".Adataim">
+
+    <TextView
+        android:id="@+id/registrationText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="@string/adataim"
+
+        android:textColor="@color/text"
+        android:textAlignment="center"
+        android:textSize="24sp" />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <EditText
+            android:id="@+id/regijelszo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="20dp"
+            android:textColorHint="@color/text"
+            android:textColor="@color/text"
+            android:ems="10"
+
+            android:hint="@string/regijelszo"
+            android:inputType="textPassword"
+            android:minHeight="48dp" />
+        <EditText
+            android:id="@+id/jelszo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="20dp"
+            android:ems="10"
+            android:textColorHint="@color/text"
+            android:textColor="@color/text"
+
+            android:hint="@string/jelszo"
+            android:inputType="textPassword"
+            android:minHeight="48dp" />
+        <EditText
+            android:id="@+id/jelszoujra"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="20dp"
+            android:ems="10"
+            android:textColorHint="@color/text"
+            android:textColor="@color/text"
+
+            android:hint="@string/jelszoujra"
+            android:inputType="textPassword"
+            android:minHeight="48dp" />
+
+        <Button
+            android:id="@+id/valtoztat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="20dp"
+            android:onClick="changepwd"
+            android:backgroundTint="@color/button"
+            android:text="@string/changepass" />
+
+    </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <EditText
+                android:id="@+id/ujMeroOraGySz"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="50dp"
+                android:layout_marginRight="20dp"
+                android:ems="10"
+                android:textColorHint="@color/text"
+                android:textColor="@color/text"
+
+                android:hint="@string/ujmeroora"
+                android:inputType="number"
+                android:minHeight="48dp" />
+            <Button
+                android:id="@+id/merooragomb"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginRight="20dp"
+                android:onClick="ujora"
+                android:backgroundTint="@color/button"
+                android:text="Új óra megadása" />
+            <ListView
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginRight="20dp"
+                android:id="@+id/list"
+                android:textColorHint="@color/text"
+                android:textColor="@color/text"
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:drawSelectorOnTop="false">
+
+            </ListView>
+        </LinearLayout>
+    </LinearLayout>
+
+
+
+    </LinearLayout>

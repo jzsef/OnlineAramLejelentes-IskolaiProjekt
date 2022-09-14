@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Online Áram Lejelentés</string>
+    <string name="e_mail">E-mail</string>
+    <string name="jelszo">Jelszó</string>
+    <string name="bejelentkezes">Bejelentkezés</string>
+    <string name="regisztracio">Regisztráció</string>
+    <string name="vezeteknev">Vezetéknév</string>
+    <string name="keresztnev">Keresztnév</string>
+    <string name="merooragysz">Mérőóra gyári száma</string>
+    <string name="cim">Város, utca házszám</string>
+    <string name="jelszoujra">Jelszó megerősítése</string>
+    <string name="megse">Mégse</string>
+    <string name="diktalas">Diktálás</string>
+    <string name="meroora_utasitas">Írja be a mérőora állását</string>
+    <string name="diktal_text">Diktál</string>
+    <string name="szamlaim">Számláim</string>
+    <string name="kilepes">Kilépés</string>
+    <string name="cardnum">Kártyaszám</string>
+    <string name="expdate">Lejárati dátum</string>
+    <string name="nameOnCard">Kártyára írt név</string>
+    <string name="cvv">CVV</string>
+    <string name="regijelszo">Régi jelszó</string>
+    <string name="changepass">Jelszó megváltoztatása</string>
+    <string name="ujmeroora">Új mérőóra gyári száma</string>
+    <string name="adataim">Adataim</string>
+</resources>

@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/gray"
+    android:layout_width="fill_parent"
+android:layout_height="fill_parent">
+tools:context=".Fizetes">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/fizetendo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="20dp"
+
+            android:textColor="@color/text"
+            android:text="TextView"
+            android:textSize="24sp" />
+        <EditText
+            android:id="@+id/kartyaszam"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="20dp"
+            android:ems="10"
+            android:textColorHint="@color/text"
+            android:textColor="@color/text"
+
+            android:hint="@string/cardnum"
+            android:inputType="number"
+            android:minHeight="48dp" />
+        <EditText
+            android:id="@+id/cardname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="20dp"
+            android:ems="10"
+            android:textColorHint="@color/text"
+            android:textColor="@color/text"
+
+            android:hint="@string/nameOnCard"
+            android:inputType="text"
+            android:minHeight="48dp" />
+
+        <EditText
+            android:id="@+id/lejaratidatum"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="20dp"
+            android:ems="10"
+            android:textColorHint="@color/text"
+            android:textColor="@color/text"
+
+            android:hint="@string/expdate"
+            android:inputType="date"
+            android:minHeight="48dp" />
+        <EditText
+            android:id="@+id/cvv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="20dp"
+            android:ems="10"
+            android:textColorHint="@color/text"
+            android:textColor="@color/text"
+
+            android:hint="@string/cvv"
+            android:inputType="date"
+            android:minHeight="48dp" />
+
+        <Button
+            android:id="@+id/fizetes"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="20dp"
+            android:onClick="fizetes"
+            android:backgroundTint="@color/button"
+
+            android:text="Fizetés" />
+        <Button
+            android:id="@+id/cancel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="20dp"
+            android:backgroundTint="@color/button"
+            android:onClick="cancel"
+            android:text="Mégse" />
+
+
+    </LinearLayout>
+</ScrollView>

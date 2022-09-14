@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/gray">
+<LinearLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical"
+
+
+tools:context=".Home">
+
+
+    <TextView
+        android:id="@+id/welcome"
+
+        android:textColor="@color/text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="60dp"
+        android:text="Üdvözöllek XY"
+        android:textAlignment="center"
+        android:textSize="20sp" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="50dp"
+        tools:context=".Registration">
+
+        <Button
+            android:id="@+id/diktalas"
+            android:layout_width="250dp"
+            android:layout_height="match_parent"
+            android:layout_marginStart="50dp"
+            android:layout_marginEnd="80dp"
+            android:onClick="diktalas"
+            android:backgroundTint="@color/button"
+            android:text="@string/diktalas"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/szamlaim"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/szamlaim"
+            android:layout_width="250dp"
+            android:layout_height="match_parent"
+            android:layout_marginEnd="80dp"
+            android:text="@string/szamlaim"
+            android:onClick="szamlaim"
+            android:backgroundTint="@color/button"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        tools:context=".Registration">
+
+        <Button
+            android:id="@+id/adataim"
+            android:layout_width="250dp"
+            android:layout_height="match_parent"
+            android:layout_marginStart="50dp"
+            android:layout_marginEnd="80dp"
+            android:text="@string/adataim"
+            android:onClick="adataim"
+            android:backgroundTint="@color/button"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/kilepes"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/kilepes"
+            android:layout_width="250dp"
+            android:layout_height="match_parent"
+            android:layout_marginEnd="80dp"
+            android:text="@string/kilepes"
+            android:onClick="onExit"
+            android:backgroundTint="@color/button"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</LinearLayout>
+</ScrollView>

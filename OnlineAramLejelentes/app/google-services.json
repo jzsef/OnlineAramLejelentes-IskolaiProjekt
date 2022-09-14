@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "496646579159",
+    "project_id": "onlinearamlejelentes",
+    "storage_bucket": "onlinearamlejelentes.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:496646579159:android:8376a8f9e5ee562dfe2192",
+        "android_client_info": {
+          "package_name": "com.example.onlinearamlejelentes"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "496646579159-f96v6nvmcr0kv4dhqdml614rsi6mn7kn.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.onlinearamlejelentes",
+            "certificate_hash": "ee856d071ec0f863b10bc6b9ef4de35c3483f2ef"
+          }
+        },
+        {
+          "client_id": "496646579159-ju42q2kk3n4cuep91puo3gr15m6itbeu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD-hBtJV_l1Y5QFnTnuAy3Rq_cMdEjLpnM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "496646579159-ju42q2kk3n4cuep91puo3gr15m6itbeu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
